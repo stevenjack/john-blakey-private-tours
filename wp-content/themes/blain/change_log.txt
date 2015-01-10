@@ -1,0 +1,48 @@
+Version 1.0
+
+	i) Initial Release.
+	
+Version 1.1.4 
+
+	i) Minor Bug Fixes
+	ii) Code Refactoring
+		
+Version 1.1.5
+
+	i) Added Translation Support for Plenty of Languages.	
+	
+Version 1.1.6
+
+	i) Added More Languaes.
+	ii) Updated Author URI.
+	iii) Added Link to Demo blog in theme Options.	
+	
+Version 1.1.7
+
+	i) Adjusted Gallery caption font size
+	ii) Changed Bullets for Comment
+	iii) Added Padding and border to distinguish more easily between li
+	iv) Changed Footer Credit link to Author URI instead of ThemeURI
+	v) Fixed Bug with Nivo Slider	
+	
+Version 1.1.8
+
+	i) Added Padding to sidebar, to fix placement issues for widgets w/o title
+	ii) Fixed bug which caused stylesheet to not load on wordpress preview.	
+	
+Version 1.1.9
+
+	i) Fixed Major Navigation Bar Bug.	
+	ii) Social Links now open in new Tab.
+	iii) Fixed Bug with Nivo Slider
+	
+Version 1.2
+
+	i) Slowed down the Slider.
+	ii) Updated Screenshot to Fully GPL.
+	iii) A little stying issue with the Slider.	
+	
+Version 1.2.1
+
+	i) Fixed Youtube Social Icon Bug
+	ii) Fixed Bug with Recent Posts Custom Widget.	

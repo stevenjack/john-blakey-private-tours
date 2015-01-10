@@ -1,0 +1,376 @@
+@import "../fonts/font-awesome/less/font-awesome.css";
+/* Table of Contents
+------------------------------------------------------- *
+
+	0. Bootstrap Fixes
+	1. Less Variables
+	2. Header
+	3. Links
+	5. Slider
+	6. Content
+		6.1. Primary
+		6.2. Secondary
+	7. Pagination
+	8. Footer
+	9. HTML Markup and Formatting
+	10. Widgets Style
+	11. Comments
+	
+
+
+/* 0. Bootstrap Fixes
+-------------------------------------------------------	*/
+body {
+  background: #E3E3E3;
+}
+#main {
+  width: 100%;
+}
+.container {
+  margin: auto;
+}
+code {
+  white-space: pre-wrap !important;
+}
+/* 1. Less Variables & Mixins
+-------------------------------------------------------	*/
+.font {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+/* 2. Header
+------------------------------------------------------- */
+body {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+#masthead {
+  margin: 40px auto;
+}
+.site-title {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+.site-title a {
+  color: black;
+}
+.site-title a:hover {
+  text-decoration: none;
+}
+.site-description {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: medium;
+}
+.main_logo {
+  max-width: 360px;
+}
+#social-icons {
+  float: right;
+  text-align: right;
+  margin-top: 20px;
+}
+.social-icon {
+  color: #78757a;
+  font-size: 36px;
+}
+.social-icon:hover {
+  color: #2571bd;
+}
+a:hover .social-icon {
+  text-decoration: none;
+}
+@media screen and (max-width: 992px) {
+  .site-title,
+  .site-description,
+  #social-icons {
+    text-align: center;
+    float: none;
+  }
+}
+/* 3. Links
+------------------------------------------------------- */
+a {
+  color: #918f93;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #2571bd;
+}
+/* 4. Navigation Menu 
+-------------------------------------------------------	*/
+.nav-wrapper {
+  background: #f8f8f8;
+  border-bottom: solid 1px #f1f1f1;
+}
+.nav-wrapper .navbar-default {
+  margin-top: 5px;
+  border: none;
+  margin-bottom: 5px;
+}
+.nav-wrapper ul ul {
+  background: #e7e7e7;
+  border: none;
+}
+.nav-wrapper ul ul a:hover {
+  background: #f8f8f8;
+  color: #333;
+}
+ul.nav ul li.dropdown:hover > ul.dropdown-menu {
+  /*  display: block;  */
+}
+/* 5. Slider
+-------------------------------------------------*/
+.slider-wrapper {
+  margin: auto;
+  margin-top: 15px;
+}
+.slide-title {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  color: #ddd;
+}
+.nivo-caption {
+  max-width: 700px;
+  min-width: 200px;
+  overflow: hidden;
+  bottom: 15px;
+  left: 10px;
+}
+.nivo-html-caption {
+  display: none;
+}
+div.slide-title {
+  font-size: 36px;
+  display: block;
+}
+div.slide-description {
+  font-family: Helvetica, Arial, sans-serif;
+}
+@media screen and (max-width: 768px) {
+  div.slide-title {
+    font-size: 18px;
+  }
+  div.slide-description {
+    font-size: 13px;
+  }
+}
+/* 6. Content 
+------------------------------------------------------- */
+#content {
+  background: white;
+}
+/* 6.1 Primary 
+------------------------------------------------------- */
+.featured-thumb {
+  margin-top: 35px;
+  text-align: center;
+}
+.featured-thumb img {
+  box-shadow: 0px 1px 2px #444;
+  border-radius: 5px;
+}
+.archive .entry-title a {
+  font-size: 16px;
+  color: black;
+}
+.archive .entry-title a:hover {
+  color: #2571bd;
+}
+.archive .entry-meta {
+  font-size: small;
+  color: #918f93;
+}
+.archive .entry-meta .posted-on {
+  margin-right: 6px;
+}
+.featured-image-single {
+  text-align: center;
+}
+.featured-image-single img {
+  max-width: 80%;
+  border: solid 5px #ffffff;
+  box-shadow: 0px 2px 2px #888;
+  margin-bottom: 15px;
+}
+/* 6.2 Secondary 
+------------------------------------------------------- */
+#secondary {
+  padding-top: 20px;
+}
+#secondary ul {
+  list-style: none;
+  margin-left: 5px;
+}
+#secondary ul li:before {
+  margin-right: 5px;
+  content: "\f0da";
+  font-family: "FontAwesome";
+  color: #918f93;
+}
+#secondary ul ul {
+  margin-left: 15px;
+}
+#secondary ul ul ul {
+  margin-left: 5px;
+}
+#secondary .widget_recent_entries li:before {
+  content: "\f0f6";
+}
+#secondary .widget_recent_entries li {
+  border-bottom: solid 1px #f7f7f7;
+  padding: 5px 0px;
+}
+#secondary .widget_recent_comments li:before {
+  content: "\f075";
+}
+#secondary .widget_recent_comments li {
+  border-bottom: solid 1px #f7f7f7;
+  padding: 5px 0px;
+}
+#secondary h1.widget-title {
+  font-size: 24px;
+}
+#secondary .widget_search input[type=submit] {
+  display: inline-block;
+}
+#secondary .widget_search input[type=search] {
+  display: block;
+  width: 100% !important;
+}
+/* 7. Pagination
+-----------------------------------------------*/
+.pagination {
+  margin: 20px 0;
+  /* text-align: center; */
+
+  width: 100%;
+  margin-left: -40px;
+  clear: both;
+}
+.pagination ul {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 0;
+}
+.pagination ul > li {
+  display: inline;
+}
+.pagination ul > li > a {
+  color: #f8f8f8;
+  transition: all 0.4s ease;
+}
+.pagination ul > li > a .next {
+  float: right;
+}
+.pagination ul > li > a:hover {
+  color: #918f93;
+  background: #e3e3e3;
+}
+.pagination .current {
+  background: #e4e2e2;
+}
+.pagination ul  > li  > a,
+.pagination ul  > li  > span {
+  float: left;
+  padding: 4px 12px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #fcfcfc;
+  border: solid 1px #f1f1f1;
+  border-left-width: 0;
+  display: inline-block;
+  color: #919191;
+}
+.pagination ul  > li:first-child  > a,
+.pagination ul  > li:first-child  > span {
+  border-left-width: 1px;
+}
+.pagination ul  > li:last-child  > a,
+.pagination ul  > li:last-child  > span {
+  border-rigth-width: 1px;
+}
+/* 8. Footer 
+------------------------------------------------------- */
+#colophon {
+  background: #f8f8f8;
+  padding: 10px;
+  border-top: solid 1px #ddd;
+  border-bottom: solid 4px #ddd;
+}
+#footertext {
+  float: right;
+  text-align: right;
+}
+/* 9. HTML Markup & Formatting
+--------------------------------------------------- */
+article table {
+  background: #f7f7f7;
+}
+article table td {
+  padding: 5px;
+  border: solid 1px #eee;
+}
+article table th {
+  padding: 5px;
+  background: #ccc;
+  border: solid 1px #ccc;
+}
+/* 10. Widgets Style
+---------------------------------------------------- */
+.rp-item {
+  display: block;
+  clear: both;
+  overflow: auto;
+  margin-bottom: 5px;
+  border-bottom: solid 1px #f7f7f7;
+  padding-bottom: 5px;
+}
+.rp-item:last-child {
+  border-bottom: none;
+}
+.rp-item:before {
+  content: none !important;
+}
+.rp-thumb {
+  float: left;
+  width: 64px;
+  margin-right: -5px;
+  margin-top: 3px;
+}
+.rp-thumb img {
+  width: 48px;
+  border: solid 2px #eee;
+  border-radius: 2px;
+}
+.rp-thumb rp-title {
+  clear: none;
+}
+.rp-thumb rp-title a {
+  display: block;
+}
+/* 11.1 Comments
+---------------------------------------------------------- */
+#respond input[type=text] {
+  max-width: 450px;
+}
+#comments ol.comment-list {
+  list-style: none;
+}
+#comments li.comment {
+  border: solid 1px #f8f8f8;
+  padding: 10px;
+  margin-top: 15px;
+  list-style: none;
+}
+#comments .vcard img {
+  border: solid 4px #f8f8f8;
+  border-radius: 5px;
+  margin: 0 10px 10px 0;
+}
+#comments .comment-metadata {
+  font-weight: bold;
+}
+@media screen and (max-width: 992px) {
+  .vcard img {
+    width: 100px !important;
+    height: auto;
+  }
+}

@@ -1,0 +1,720 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blain Wordpress Theme\n"
+"POT-Creation-Date: 2013-10-19 03:42+0530\n"
+"PO-Revision-Date: 2013-10-19 03:42+0530\n"
+"Last-Translator: ROhit <rohit@rohitink.com>\n"
+"Language-Team: InkHive.com <rohit@rohitink.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/mac/Documents/Developer/Theme-Development/wp-"
+"content/themes/blain\n"
+"X-Poedit-SearchPath-1: /Users/mac/Documents/Developer/Theme-Development/wp-"
+"content/themes/blain/inc\n"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! That page can&rsquo;t be found."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/404.php:27
+msgid "Most Used Categories"
+msgstr "Most Used Categories"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Try looking in the monthly archives. %1$s"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/archive.php:31
+#, php-format
+msgid "Author: %s"
+msgstr "Author: %s"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/archive.php:39
+#, php-format
+msgid "Day: %s"
+msgstr "Day: %s"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/archive.php:42
+#, php-format
+msgid "Month: %s"
+msgstr "Month: %s"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/archive.php:45
+#, php-format
+msgid "Year: %s"
+msgstr "Year: %s"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/archive.php:48
+msgid "Asides"
+msgstr "Asides"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/archive.php:51
+msgid "Images"
+msgstr "Images"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/archive.php:54
+msgid "Videos"
+msgstr "Videos"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/archive.php:57
+msgid "Quotes"
+msgstr "Quotes"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/archive.php:60
+msgid "Links"
+msgstr "Links"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/archive.php:63
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/sidebar.php:17
+msgid "Archives"
+msgstr "Archives"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/comments.php:36
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/comments.php:56
+msgid "Comment navigation"
+msgstr "Comment navigation"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/comments.php:37
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; Older Comments"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/comments.php:38
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Newer Comments &rarr;"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/comments.php:68
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/comments.php:89
+msgid "Name"
+msgstr "Name"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/comments.php:95
+msgid "Email"
+msgstr "Email"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/comments.php:102
+msgid "Website"
+msgstr "Website"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/content-page.php:18
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/content-single.php:25
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/image.php:58
+msgid "Pages:"
+msgstr "Pages:"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/content-page.php:23
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/content-single.php:65
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/image.php:32
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/image.php:64
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/template-tags.php:71
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/template-tags.php:89
+msgid "Edit"
+msgstr "Edit"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/content-single.php:34
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/content-single.php:37
+msgid ", "
+msgstr ", "
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/content-single.php:42
+#, php-format
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/content-single.php:44
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/content-single.php:50
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/content-single.php:52
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/content.php:38
+msgid "Contine reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Contine reading <span class=\"meta-nav\">&rarr;</span>"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/content.php:41
+msgid "Pages: "
+msgstr "Pages: "
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/footer.php:17
+#, php-format
+msgid "Blain Theme by %1$s."
+msgstr "Blain Theme by %1$s."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/functions.php:39
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/functions.php:53
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/image.php:22
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/image.php:37
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Previous"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/image.php:38
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Next <span class=\"meta-nav\">&rarr;</span>"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/no-results.php:13
+msgid "Nothing Found"
+msgstr "Nothing Found"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/no-results.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/no-results.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/no-results.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:37
+msgid "Basic Settings"
+msgstr "Basic Settings"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:41
+msgid "Site Logo"
+msgstr "Site Logo"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:42
+msgid "Leave Blank to use text Heading."
+msgstr "Leave Blank to use text Heading."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:48
+msgid "Enable Excerpts on Homepage"
+msgstr "Enable Excerpts on Homepage"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:49
+msgid ""
+"By default, the theme shows either the full post or content up till the "
+"point where you placed the &lt;!--more--> tag. Check this if you want to you "
+"enable Excerpts on Homepage. Excerpts are short summary of your posts."
+msgstr "By default, the theme shows either the full post or content up till the point where you placed the &lt;!--more--> tag. Check this if you want to you enable Excerpts on Homepage. Excerpts are short summary of your posts."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:55
+msgid "Custom Code in Header"
+msgstr "Custom Code in Header"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:56
+msgid ""
+"Insert scripts or code before the closing &lt;/head&gt; tag in the document "
+"source:"
+msgstr "Insert scripts or code before the closing &lt;/head&gt; tag in the document source:"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:62
+msgid "Custom Code in Footer"
+msgstr "Custom Code in Footer"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:63
+msgid ""
+"Insert scripts or code before the closing &lt;/body&gt; tag in the document "
+"source:"
+msgstr "Insert scripts or code before the closing &lt;/body&gt; tag in the document source:"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:69
+msgid "Copyright Text"
+msgstr "Copyright Text"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:70
+msgid ""
+"Some Text regarding copyright of your site, you would like to display in the "
+"footer."
+msgstr "Some Text regarding copyright of your site, you would like to display in the footer."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:78
+msgid "Layout Settings"
+msgstr "Layout Settings"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:93
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:94
+msgid ""
+"Some Custom Styling for your site. Place any css codes here instead of the "
+"style.css file."
+msgstr "Some Custom Styling for your site. Place any css codes here instead of the style.css file."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:102
+msgid "Slider Settings"
+msgstr "Slider Settings"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:106
+msgid "Enable Slider"
+msgstr "Enable Slider"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:107
+msgid "Check this to Enable Slider."
+msgstr "Check this to Enable Slider."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:113
+msgid "Using the Slider"
+msgstr "Using the Slider"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:114
+msgid ""
+"This Slider supports upto 5 Images. To show only 3 Slides in the slider, "
+"upload only 3 images. Leave the rest Blank. For best results, upload images "
+"of size 1180x500px."
+msgstr "This Slider supports upto 5 Images. To show only 3 Slides in the slider, upload only 3 images. Leave the rest Blank. For best results, upload images of size 1180x500px."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:118
+msgid "Slider Image 1"
+msgstr "Slider Image 1"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:119
+msgid "First Slide"
+msgstr "First Slide"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:125
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:150
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:175
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:200
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:225
+msgid "Title"
+msgstr "Title"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:131
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:156
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:181
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:206
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:231
+msgid "Description or Tagline"
+msgstr "Description or Tagline"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:137
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:162
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:187
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:212
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:237
+msgid "Url"
+msgstr "Url"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:143
+msgid "Slider Image 2"
+msgstr "Slider Image 2"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:144
+msgid "Second Slide"
+msgstr "Second Slide"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:168
+msgid "Slider Image 3"
+msgstr "Slider Image 3"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:169
+msgid "Third Slide"
+msgstr "Third Slide"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:193
+msgid "Slider Image 4"
+msgstr "Slider Image 4"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:194
+msgid "Fourth Slide"
+msgstr "Fourth Slide"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:218
+msgid "Slider Image 5"
+msgstr "Slider Image 5"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:219
+msgid "Fifth Slide"
+msgstr "Fifth Slide"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:245
+msgid "Social Settings"
+msgstr "Social Settings"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:249
+msgid "Facebook"
+msgstr "Facebook"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:250
+msgid "Facebook Profile or Page URL i.e. http://facebook.com/username/ "
+msgstr "Facebook Profile or Page URL i.e. http://facebook.com/username/ "
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:257
+msgid "Twitter"
+msgstr "Twitter"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:258
+msgid "Twitter Username"
+msgstr "Twitter Username"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:265
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:266
+msgid "Google Plus profile url, including \"http://\""
+msgstr "Google Plus profile url, including \"http://\""
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:273
+msgid "Feeburner"
+msgstr "Feeburner"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:274
+msgid "URL for your RSS Feeds"
+msgstr "URL for your RSS Feeds"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:281
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:282
+msgid "Your Pinterest Profile URL"
+msgstr "Your Pinterest Profile URL"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:289
+msgid "Instagram"
+msgstr "Instagram"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:290
+msgid "Your Instagram Profile URL"
+msgstr "Your Instagram Profile URL"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:297
+msgid "Linked In"
+msgstr "Linked In"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:298
+msgid "Your Linked In Profile URL"
+msgstr "Your Linked In Profile URL"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:305
+msgid "Youtube"
+msgstr "Youtube"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:306
+msgid "Your Youtube Channel URL"
+msgstr "Your Youtube Channel URL"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:313
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:314
+msgid "Your Tumblr Blog URL"
+msgstr "Your Tumblr Blog URL"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:321
+msgid "Flickr"
+msgstr "Flickr"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:322
+msgid "Your Flickr Profile URL"
+msgstr "Your Flickr Profile URL"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:329
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:330
+msgid "Your Dribble Profile URL"
+msgstr "Your Dribble Profile URL"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:337
+msgid "Support"
+msgstr "Support"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:341
+msgid ""
+"Blain WordPress theme has been Designed and Created by <a href=\"http://"
+"InkHive.com\" target=\"_blank\">Rohit Tripathi</a>. For any Queries or help "
+"regarding this theme, <a href=\"http://inkhive.com/forums/section/theme-"
+"support/blain/\" target=\"_blank\">use the support forums.</a> You can also "
+"ask questions about this theme on WordPress.org Support Forums. I will "
+"answer your queries there too."
+msgstr "Blain WordPress theme has been Designed and Created by <a href=\"http://InkHive.com\" target=\"_blank\">Rohit Tripathi</a>. For any Queries or help regarding this theme, <a href=\"http://inkhive.com/forums/section/theme-support/blain/\" target=\"_blank\">use the support forums.</a> You can also ask questions about this theme on WordPress.org Support Forums. I will answer your queries there too."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:345
+msgid ""
+"<a href=\"http://twitter.com/rohitinked\" target=\"_blank\">Follow Me on "
+"Twitter</a> to know about my upcoming themes."
+msgstr "<a href=\"http://twitter.com/rohitinked\" target=\"_blank\">Follow Me on Twitter</a> to know about my upcoming themes."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:349
+msgid "Regenerating Post Thumbnails"
+msgstr "Regenerating Post Thumbnails"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:350
+msgid ""
+"If you are using blain Theme on a New Wordpress Installation, then you can "
+"skip this section.<br />But if you have just switched to this theme from "
+"some other theme, or just updated to the current version of blain, then you "
+"are requested regenerate all the post thumbnails. It will fix all the issues "
+"you are facing with distorted & ugly homepage thumbnail Images. "
+msgstr "If you are using blain Theme on a New Wordpress Installation, then you can skip this section.<br />But if you have just switched to this theme from some other theme, or just updated to the current version of blain, then you are requested regenerate all the post thumbnails. It will fix all the issues you are facing with distorted & ugly homepage thumbnail Images. "
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:354
+msgid ""
+"To Regenerate all Thumbnail images, Install and Activate the <a href="
+"\"http://wordpress.org/plugins/regenerate-thumbnails/\" target=\"_blank"
+"\">Regenerate Thumbnails</a> WP Plugin. Then from <strong>Tools &gt; Regen. "
+"Thumbnails</strong>, re-create thumbnails for all your existing images. And "
+"your blog will look even more stylish with Blain theme.<br /> "
+msgstr "To Regenerate all Thumbnail images, Install and Activate the <a href=\"http://wordpress.org/plugins/regenerate-thumbnails/\" target=\"_blank\">Regenerate Thumbnails</a> WP Plugin. Then from <strong>Tools &gt; Regen. Thumbnails</strong>, re-create thumbnails for all your existing images. And your blog will look even more stylish with Blain theme.<br /> "
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:359
+msgid ""
+"<strong>Note:</strong> Regenerating the thumbnails, will not affect your "
+"original images. It will just generate a separate image file for those "
+"images."
+msgstr "<strong>Note:</strong> Regenerating the thumbnails, will not affect your original images. It will just generate a separate image file for those images."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:364
+msgid "Theme Credits"
+msgstr "Theme Credits"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/options.php:365
+msgid ""
+"Check this if you want to you do not want to give us credit in your site "
+"footer."
+msgstr "Check this if you want to you do not want to give us credit in your site footer."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Search Results for: %s"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/sidebar.php:24
+msgid "Meta"
+msgstr "Meta"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/extras.php:66
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-framework.php:147
+msgid "Blain Theme Options"
+msgstr "Blain Theme Options"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-framework.php:148
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-framework.php:377
+msgid "Blain Settings"
+msgstr "Blain Settings"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-framework.php:193
+msgid "Clear"
+msgstr "Clear"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-framework.php:194
+msgid "Default"
+msgstr "Default"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-framework.php:195
+msgid "Select Color"
+msgstr "Select Color"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-framework.php:241
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Click OK to reset. Any theme settings will be lost!"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-framework.php:273
+msgid "Default options restored."
+msgstr "Default options restored."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-framework.php:327
+msgid "Options saved."
+msgstr "Options saved."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-media-uploader.php:51
+msgid "No file chosen"
+msgstr "No file chosen"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-media-uploader.php:54
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-media-uploader.php:113
+msgid "Upload"
+msgstr "Upload"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-media-uploader.php:56
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-media-uploader.php:114
+msgid "Remove"
+msgstr "Remove"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-media-uploader.php:59
+msgid "Upgrade your version of WordPress for full media support."
+msgstr "Upgrade your version of WordPress for full media support."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-media-uploader.php:83
+msgid "View File"
+msgstr "View File"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:239
+msgid "No Repeat"
+msgstr "No Repeat"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:240
+msgid "Repeat Horizontally"
+msgstr "Repeat Horizontally"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:241
+msgid "Repeat Vertically"
+msgstr "Repeat Vertically"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:242
+msgid "Repeat All"
+msgstr "Repeat All"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:255
+msgid "Top Left"
+msgstr "Top Left"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:256
+msgid "Top Center"
+msgstr "Top Center"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:257
+msgid "Top Right"
+msgstr "Top Right"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:258
+msgid "Middle Left"
+msgstr "Middle Left"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:259
+msgid "Middle Center"
+msgstr "Middle Center"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:260
+msgid "Middle Right"
+msgstr "Middle Right"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:261
+msgid "Bottom Left"
+msgstr "Bottom Left"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:262
+msgid "Bottom Center"
+msgstr "Bottom Center"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:263
+msgid "Bottom Right"
+msgstr "Bottom Right"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:276
+msgid "Scroll Normally"
+msgstr "Scroll Normally"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:277
+msgid "Fixed in Place"
+msgstr "Fixed in Place"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:351
+msgid "Normal"
+msgstr "Normal"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:352
+msgid "Italic"
+msgstr "Italic"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:353
+msgid "Bold"
+msgstr "Bold"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/options-sanitize.php:354
+msgid "Bold Italic"
+msgstr "Bold Italic"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Post navigation"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Older posts"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/template-tags.php:93
+msgid "Your comment is awaiting moderation."
+msgstr "Your comment is awaiting moderation."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/template-tags.php:183
+#, php-format
+msgid ""
+"<span class=\"posted-on\"><i class=\"icon-time\"> </i> %1$s</span> <span "
+"class=\"byline\"> <i class=\"icon-user\"> </i> %2$s</span>"
+msgstr "<span class=\"posted-on\"><i class=\"icon-time\"> </i> %1$s</span> <span class=\"byline\"> <i class=\"icon-user\"> </i> %2$s</span>"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/widgets.php:13
+msgid "Blain Recent Posts"
+msgstr "Blain Recent Posts"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/widgets.php:14
+msgid "Display your recent posts, with a Thumbnail."
+msgstr "Display your recent posts, with a Thumbnail."
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/widgets.php:78
+msgid "Latest Articles"
+msgstr "Latest Articles"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/widgets.php:84
+msgid "5"
+msgstr "5"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/widgets.php:88
+msgid "Title:"
+msgstr "Title:"
+
+#: /Users/mac/Documents/Developer/Theme-Development/wp-content/themes/blain/inc/widgets.php:91
+msgid "No. of Posts:"
+msgstr "No. of Posts:"
+

@@ -1,0 +1,442 @@
+@import "../fonts/font-awesome/less/font-awesome.css";
+
+/* Table of Contents
+------------------------------------------------------- *
+
+	0. Bootstrap Fixes
+	1. Less Variables
+	2. Header
+	3. Links
+	5. Slider
+	6. Content
+		6.1. Primary
+		6.2. Secondary
+	7. Pagination
+	8. Footer
+	9. HTML Markup and Formatting
+	10. Widgets Style
+	11. Comments
+	
+
+
+/* 0. Bootstrap Fixes
+-------------------------------------------------------	*/
+body {
+	background: #E3E3E3;
+}
+#main {
+	width: 100%;
+}
+.container {
+	margin: auto;
+}
+code {
+	white-space: pre-wrap !important;
+}
+
+/* 1. Less Variables & Mixins
+-------------------------------------------------------	*/
+
+@default-background: #E3E3E3;
+@link-color: #918F93;
+@link-hover-color: #2571BD;
+@menu-bar-bg: #F8F8F8;
+@menu-hover: #E7E7E7;
+
+.font {
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+/* 2. Header
+------------------------------------------------------- */
+body {
+	.font;
+}
+#masthead {
+	margin: 40px auto;	
+}
+.site-title {
+	.font;
+	a {
+		color: black;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+.site-description {
+	.font;
+	font-size: medium;
+}
+.main_logo {
+	max-width: 360px;
+}
+#social-icons {
+	float: right;
+	text-align: right;
+	margin-top: 20px;
+}
+.social-icon {
+	color: darken(@link-color, 10%);
+	font-size: 36px;
+	&:hover {
+		color: @link-hover-color;
+	}
+}
+a:hover .social-icon {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+	.site-title, .site-description, #social-icons {
+		text-align: center;
+		float: none;
+	}
+}
+
+/* 3. Links
+------------------------------------------------------- */
+
+a {
+	color: @link-color;
+}
+a:hover,
+a:focus,
+a:active {
+	color: @link-hover-color;
+}
+
+/* 4. Navigation Menu 
+-------------------------------------------------------	*/
+.nav-wrapper {
+	background: @menu-bar-bg;
+	border-bottom: solid 1px #f1f1f1;
+	.navbar-default {
+		margin-top: 5px;
+		border: none;
+		margin-bottom: 5px;
+	}
+	ul ul {
+		background: @menu-hover;
+		border: none;
+		a {
+			&:hover {
+				background: @menu-bar-bg;
+				color: #333;
+			}
+		}
+	}
+}
+ul.nav ul li.dropdown:hover > ul.dropdown-menu {
+   /*  display: block;  */ 
+}
+
+/* 5. Slider
+-------------------------------------------------*/
+
+.slider-wrapper {
+	margin: auto;
+	margin-top: 15px;
+}
+.slide-title {
+	.font;
+	color: #ddd;
+}
+.nivo-caption {
+  max-width: 700px;
+  min-width: 200px;
+  overflow: hidden;
+  bottom: 15px;
+  left: 10px;
+}
+.nivo-html-caption {
+	display: none;
+}
+div.slide-title {
+	font-size: 36px;
+	display: block; 
+}
+div.slide-description {
+	 font-family: Helvetica, Arial, sans-serif;
+}
+@media screen and (max-width: 768px) {
+	div.slide-title {
+		font-size: 18px;
+	}
+	div.slide-description {
+		font-size: 13px;
+	}
+}
+
+
+/* 6. Content 
+------------------------------------------------------- */
+
+#content {
+	background: white;
+}
+
+/* 6.1 Primary 
+------------------------------------------------------- */
+
+.featured-thumb {
+	margin-top: 35px;
+	text-align: center;
+	img {
+		box-shadow: 0px 1px 2px #444;
+		border-radius: 5px; 
+	}
+}
+.archive {
+	.entry-title a {
+		font-size: 16px;
+		color: black;
+		&:hover {
+			color: @link-hover-color;
+		}
+	}
+	.entry-meta {
+		font-size: small;
+		color: @link-color;
+		.posted-on {
+			margin-right: 6px;
+		}
+	}
+}
+.featured-image-single {
+	text-align: center;
+	img {
+		max-width: 80%;
+		border: solid 5px lighten(@menu-bar-bg,30%);
+		box-shadow: 0px 2px 2px #888;
+		margin-bottom: 15px;
+	}
+}
+
+/* 6.2 Secondary 
+------------------------------------------------------- */
+
+#secondary {
+	padding-top: 20px;
+	ul {
+		list-style: none;
+		margin-left: 5px;
+		li:before {
+			margin-right: 5px;
+			content:"\f0da";
+			font-family: "FontAwesome";
+			color: @link-color;
+		}
+		ul {
+			margin-left: 15px;
+			ul {
+				margin-left: 5px;
+				
+			}
+		}
+	}
+	.widget_recent_entries {
+		li:before {
+			content: "\f0f6";
+		}
+		li {
+			border-bottom: solid 1px lighten(@link-color, 40%);
+			padding: 5px 0px;
+		}
+	}
+	.widget_recent_comments {
+		li:before {
+			content: "\f075";
+		}
+		li {
+			border-bottom: solid 1px lighten(@link-color, 40%);
+			padding: 5px 0px;
+		}
+	}
+	h1.widget-title {
+		font-size: 24px;
+	}
+	.widget_search {
+		input[type=submit] {
+			display: inline-block;
+		}
+		input[type=search] {
+			display: block;
+			width: 100% !important;
+			
+		}
+	}
+}
+
+/* 7. Pagination
+-----------------------------------------------*/
+.pagination {
+    margin: 20px 0;
+    /* text-align: center; */
+    width: 100%;
+    margin-left: -40px;
+    clear: both;
+    ul {
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 0;
+        & > li {
+            display: inline;
+            & > a {
+                color: @menu-bar-bg;
+                transition: all 0.4s ease;
+                .next {
+	                float: right;
+                }
+            }
+            & > a:hover {
+                color: @link-color;
+                background: @default-background;
+            }
+        }
+    }
+    .current {
+        background: saturate(@default-background, 5%);
+    }
+}
+.pagination ul &>li &>a, .pagination ul &>li &>span {
+    float: left;
+    padding: 4px 12px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: lighten(@default-background, 10%);
+    border: solid 1px #f1f1f1;
+    border-left-width: 0;
+    display: inline-block;
+    color: desaturate(@link-color, 40%);
+}
+.pagination ul &>li:first-child &>a, .pagination ul &>li:first-child &>span {
+    border-left-width: 1px;
+}
+
+.pagination ul &>li:last-child &>a, .pagination ul &>li:last-child &>span {
+    border-rigth-width: 1px;
+}
+
+
+/* 8. Footer 
+------------------------------------------------------- */
+
+#colophon {
+	background: @menu-bar-bg;
+	padding: 10px;
+	border-top: solid 1px #ddd;
+	border-bottom: solid 4px #ddd;
+}
+#footertext {
+	float: right;
+	text-align: right;
+}
+
+/* 9. HTML Markup & Formatting
+--------------------------------------------------- */
+
+article {
+	table {
+		background: #f7f7f7;
+		td {
+			padding: 5px;
+			border: solid 1px #eee;
+		}
+		th {
+			padding: 5px;
+			background: #ccc;
+			border: solid 1px #ccc;
+		}
+		thead {
+			
+		}
+	}
+}
+
+/* 10. Widgets Style
+---------------------------------------------------- */
+
+.rp-item {
+	display: block;
+	clear: both;
+	overflow: auto;
+	margin-bottom: 5px;
+	border-bottom: solid 1px lighten(@link-color, 40%);
+	padding-bottom: 5px;
+}
+.rp-item:last-child {
+	border-bottom: none;
+}
+.rp-item:before {
+	content: none !important;
+}
+.rp-thumb {
+	float: left;
+	width: 64px;
+	margin-right: -5px;
+	margin-top: 3px;
+	img {
+	width: 48px;
+	border: solid 2px #eee;
+	border-radius: 2px;
+	}
+	rp-title {	
+	clear: none;
+		a {
+		display: block;
+		}
+	}
+}
+
+/* 11.1 Comments
+---------------------------------------------------------- */
+ 
+ #respond {
+	 input[type=text] {
+		 max-width: 450px;
+	 }
+ }
+ 
+ #comments {
+	 ol.comment-list {
+		 list-style: none;	 
+	 }
+	 li.comment {
+		 border: solid 1px @menu-bar-bg;
+		 padding: 10px;
+		 margin-top: 15px;
+		 list-style: none;
+	 }
+	 .vcard img {
+		 border: solid 4px @menu-bar-bg;
+		 border-radius: 5px;
+		 margin: 0 10px 10px 0;
+	 }
+	 .comment-metadata {
+		 font-weight: bold;
+	 }
+ }
+ @media screen and (max-width:992px) {
+	 .vcard img {
+		 width: 100px !important;
+		 height: auto;
+	 }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
