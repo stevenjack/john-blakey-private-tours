@@ -17,24 +17,34 @@ get_header(); ?>
                 <?php $children = get_children(array('order' => 'ASC', 'post_parent' => get_the_ID())); ?>
                 <?php $post = get_post(); ?>
 
-			<div class="row">
-                <div class="col-md-4">
-                    <h1><?= $post->post_title ?></h1>
-                    <?= types_render_field('tour-list-image', array("output" => "image")) ?></div>
-                <div class="col-md-8"></p><?= apply_filters('the_content', $post->post_content) ?></p></div>
+            <h1><?= $post->post_title ?></h1>
+			<div class="row row-padding">
+                <div class="col-md-12 tour-image">
+                    <?= types_render_field('tour-list-image', array("output" => "image")) ?>
+                    <?= apply_filters('the_content', $post->post_content) ?>
+                </div>
+                <!-- <div class="col-md-8">
+                    <?= apply_filters('the_content', $post->post_content) ?>
+                </div> -->
 			</div>
 
             <?php foreach ($children as $child_id => $child) { ?>
-                <h3><?php echo $child->post_title; ?></h3>
-                <?php $tour_children = get_children(array('post_parent' => $child_id)); ?>
-                <?php if (!empty($child->post_content)) { ?>
-                    <p><?= apply_filters('the_content', $child->post_content); ?></p>
-                <?php } ?>
-                <ul>
-                <?php foreach ($tour_children as $tour_child_id => $tour_child) { ?>
-                    <li><a href="<?= $tour_child->guid ?>"><?= $tour_child->post_title ?></a></li>
-                <?php } ?>
-                </ul>
+                <div class="special-interest-cat">
+                    <h3><?php echo $child->post_title; ?></h3>
+                    <?php $tour_children = get_children(array('post_parent' => $child_id)); ?>
+                    <?php if (!empty($child->post_content)) { ?>
+                        <div class="blurb">
+                            <?= apply_filters('the_content', $child->post_content); ?>
+                        </div>
+                    <?php } ?>
+                    <ul>
+                    <?php foreach ($tour_children as $tour_child_id => $tour_child) { ?>
+                        <li>
+                            <a href="<?= $tour_child->guid ?>"><?= $tour_child->post_title ?></a>
+                        </li>
+                    <?php } ?>
+                    </ul>
+                </div>
             <?php } ?>
 
 			<?php endwhile; // end of the loop. ?>

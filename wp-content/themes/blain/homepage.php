@@ -13,17 +13,12 @@ get_header(); ?>
 	<div id="tours" class="content-area">
         <main id="main" class="site-main" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
-                <div class="quotes">
+                <div class="quotes homepage-header">
                     <div class="col-md-3">
                         <?= types_render_field('left-hand-image', array("output" => "image")) ?>
                     </div>
                     <div class="col-md-9">
-                        <?php
-                            $images = get_post_meta(get_the_ID(), 'slider-images');
-                            foreach ($images as $image) {
-                                echo $image;
-                            }
-                        ?>
+                        <?= types_render_field('slider-images', array("output" => "image")) ?>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -32,12 +27,9 @@ get_header(); ?>
                     </a> -->
                 </div>
                 <div class="col-md-9">
-                    <blockquote>John is perfect. You will be wowed!
-                        <footer>Katey Hartwell, voted Top Travel Specialist 2000 - 2014 by Conde Nast Traveler Magazine</footer>
-                    </blockquote>
-                    <blockquote>John is the best! He knows everything; history, hotels, restaurants and scenery. He brings England alive like you cannot imagine. He's fun, interesting and a great storyteller. A day with him is like no other.
 
-                        <footer>Stephen &amp; Nancy hales, USA</footer>
+                    <blockquote>
+                        <?= types_render_field('slider-testimonial', array('separator' => '</blockquote><blockquote>')) ?>
                     </blockquote>
                 </div>
                 <div class="clearfix visible-xs-block"></div>
@@ -50,7 +42,11 @@ get_header(); ?>
                                 <h3><?= $category->name ?></h3>
                             </a>
                         </div>
-                        <img width="250" src="<?php echo z_taxonomy_image_url($category->term_id); ?>" />
+                        <div class="region-box">
+                            <a href="<?= $category->slug ?>">
+                                <img width="250" src="<?php echo z_taxonomy_image_url($category->term_id); ?>" />
+                            </a>
+                        </div>
                     </div>
                 <?php } ?>
                 <div class="clearfix visible-xs-block"></div>
@@ -59,18 +55,11 @@ get_header(); ?>
                 </div>
                 <div class="clearfix visible-xs-block"></div>
                 <div class="row">
-                    <div class="col-xs-6 col-sm-3">
-                        <h5>The institute of tourist guiding</h5>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <h5>The guild of registered tourist guide</h5>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <h5>The association of professional tourist guides</h5>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <h5>The driver-guides association</h5>
-                    </div>
+                    <ul>
+                        <li>
+                            <?= types_render_field('member-of', array('separator' => '</li><li>')) ?>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
