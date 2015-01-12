@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Home
+ * Template Name: Tour expanded page
  *
  * @package Blain
  */

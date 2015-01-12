@@ -1,19 +1,26 @@
 httpd:
-  build: .
+  image: 'jbpt/httpd'
   links: 
-   - memcache
-   - db
+    - memcache
+    - db
   ports:
-   - "80:80"
+    - "80:80"
   environment:
     DB_NAME: wordpress
-    DB_USER: admin
-    DB_PASS: "**ChangeMe**"
+    DB_USER: "dev"
+    DB_PASS: "dev"
+    DB_PORT: 3306
     DB_HOST: "**LinkMe**"
-    DB_PORT: "**LinkMe**"
+  volumes:
+    - './wp-content:/var/www/html/wp-content'
+    - './wp-config.php:/var/www/html/wp-config.php'
 memcache:
   image: memcached
 db:
   image: tutum/mysql:5.5
+  volumes:
+    - './db_backups/wordpress.sql:/wordpress.sql'
   environment:
-    MYSQL_PASS: "**ChangeMe**"
+    MYSQL_PASS: "dev"
+    MYSQL_USER: "dev"
+    STARTUP_SQL: '/wordpress.sql'
