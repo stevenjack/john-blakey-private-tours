@@ -21,12 +21,7 @@ get_header(); ?>
                         <?= types_render_field('slider-images', array("output" => "image")) ?>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <!-- <a href="http://192.168.59.103:49153/wp-content/uploads/2014/11/blue_badge.jpg">
-                        <img class="alignnone size-full wp-image-56" src="http://192.168.59.103:49153/wp-content/uploads/2014/11/blue_badge.jpg" alt="blue_badge" width="200" height="226" />
-                    </a> -->
-                </div>
-                <div class="col-md-9">
+                <div class="col-md-12">
 
                     <blockquote>
                         <?= types_render_field('slider-testimonial', array('separator' => '</blockquote><blockquote>')) ?>
@@ -44,7 +39,7 @@ get_header(); ?>
                         </div>
                         <div class="region-box">
                             <a href="<?= $category->slug ?>">
-                                <img width="250" src="<?php echo z_taxonomy_image_url($category->term_id); ?>" />
+                                <img width="100%" src="<?php echo z_taxonomy_image_url($category->term_id); ?>" />
                             </a>
                         </div>
                     </div>
