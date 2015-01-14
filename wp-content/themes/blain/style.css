@@ -117,6 +117,9 @@ hr {
 }
 
 /* Text elements */
+.page p, .page li, .page a, .blurb {
+    font-size: 16px;
+}
 p {
 	margin-bottom: 1.5em;
 }
@@ -599,6 +602,7 @@ object {
 #colophon .item {
     float: right;
     padding-right: 20px;
+    margin-bottom: 0px;
 }
 
 .special-interest-cat .blurb {
@@ -635,7 +639,7 @@ object {
 }
 
 #menu-navigation {
-    width: 538px;
+    width: 752px;
     margin: auto;
     float: none;
 }
@@ -660,11 +664,19 @@ object {
 .page .navbar-default .navbar-nav>.active>a, 
 .page .navbar-default .navbar-nav>.active>a:hover, 
 .page .navbar-default .navbar-nav>.active>a:focus,
+.page .navbar-default .navbar-nav>.menu-item>a:hover,
 .page .dropdown-menu>.active>a,
 .page .dropdown-menu>.active>a:hover,
-.page .dropdown-menu>.active>a:focus {
+.page .dropdown-menu>.active>a:focus,
+.page .dropdown-menu>.menu-item>a:hover {
     background-color: #07a99d;
     color: white;
+}
+
+.navbar-default .navbar-nav>li>a,
+.dropdown-menu>li>a {
+    font-size: 18px;
+    padding: 15px 25px;
 }
 
 /* Quote */
