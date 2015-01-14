@@ -1,4 +1,3 @@
-/*
 Theme Name: Blain
 Theme URI: http://inkhive.com/product/blain/
 Author: Rohit Tripathi
@@ -552,8 +551,10 @@ object {
     border-color: #07a99d;
 }
 
-.thumbnail img {
+.thumbnail a.image-link {
     width: 300px;
+    margin: auto;
+    display: block;
 }
 
 .region-tour .thumbnail {
@@ -565,10 +566,11 @@ object {
     margin-top: 10px;
 }
 
-.thumbnail .caption a {
+.thumbnail .caption a.title-link {
+    text-align:center;
     margin: auto;
     display: block;
-    width: 30%;
+    margin-bottom: 5px;
 }
 
 .region-box {

@@ -35,13 +35,14 @@ get_header(); ?>
                     <?= ($i != 0 && (0 == $i % 3)) ? '</div><div class="row region-tour">' : '' ?>
                     <div class="col-sm-6 col-md-4 tour">
                         <div class="thumbnail">
-                          <img src="<?php echo z_taxonomy_image_url($category->term_id); ?>" alt="...">
-                          <div class="caption">
-                            <h3><?= $category->name ?></h3>
-                            <p>
-                                <a href="/?page_id=143&category=<?= $category->slug ?>" class="btn btn-primary" role="button">View tours</a>
-                            </p>
-                          </div>
+                            <div class="caption">
+                                <a class="title-link" href="/?page_id=143&category=<?= $category->slug ?>"
+                                    <h3 class="thumbnail-title"><?= $category->name ?></h3>
+                                </a>
+                            </div>
+                            <a class="image-link" href="/?page_id=143&category=<?= $category->slug ?>">
+                                <img src="<?php echo z_taxonomy_image_url($category->term_id); ?>" alt="...">
+                            </a>
                         </div>
                     </div>
                 <?php } ?>
