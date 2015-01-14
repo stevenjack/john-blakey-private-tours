@@ -17,7 +17,9 @@ get_header(); ?>
                 <?php $children = get_children(array('order' => 'ASC', 'post_parent' => get_the_ID())); ?>
                 <?php $post = get_post(); ?>
 
-            <h1><?= $post->post_title ?></h1>
+            <header class="entry-header">
+                <h1 class="entry-title"><?= $post->post_title ?></h1>
+            </header>
 			<div class="row row-padding">
                 <div class="col-md-12 tour-image">
                     <?= types_render_field('tour-list-image', array("output" => "image")) ?>

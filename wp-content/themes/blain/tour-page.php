@@ -8,7 +8,7 @@
 get_header(); ?>
 
 	<div id="tour" class="content-area">
-        <main id="main" class="site-main" role="main">
+        <main id="main" class="site-main tour-main" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
                 <?php $post = get_post(); ?>
 
@@ -16,10 +16,15 @@ get_header(); ?>
                     <div class="col-md-6"><?= types_render_field('tour-image', array("output" => "image")) ?></div>
   					<div class="col-md-6">
 						<div class="title">
-                            <h4><?= $post->post_title ?></h4>
-							<span></span>
-                            </span>&pound;<?= types_render_field('tour-price', array('output' => 'raw'))  ?></span>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h4 class="inner-title"><?= $post->post_title ?></h4>
+                                </div>
+                                <div class="col-md-3">
+                                    <h4 class="price">&pound;<?= types_render_field('tour-price', array('output' => 'raw'))  ?></h4>
+                                </div>
 						</div>
+<div style="clear: both;"></div>
 						<div class="blurb">
 							<?= $post->post_content ?>
 						</div>

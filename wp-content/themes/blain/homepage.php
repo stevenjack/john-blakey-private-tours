@@ -12,38 +12,40 @@ get_header(); ?>
 ?>
 	<div id="tours" class="content-area">
         <main id="main" class="site-main" role="main">
+            <div class="quote">
+                <div class="row">
+                    <div class="col-md-1 quote-mark quote-mark-left">
+                        <img src="/wp-content/themes/blain/images/quote_left.svg" />
+                    </div>
+                    <div class="col-md-10">
+                        <span class="open-quote"></span>
+                        <p>John is the best! He knows everything; history, hotels, restaurants and scenery. He brings England alive like you cannot imagine. He's fun, interesting and a great storyteller. A day with him is like no other.</p>
+                        <div class="quotes"><em>Stephen & Nancy hales, USA</em></div>
+                    </div>
+                    <div class="col-md-1 quote-mark quote-mark-right">
+                        <img src="/wp-content/themes/blain/images/quote_right.svg" />
+                    </div>
+                </div>
+            </div>
 			<?php while ( have_posts() ) : the_post(); ?>
-                <div class="quotes homepage-header">
-                    <div class="col-md-3">
-                        <?= types_render_field('left-hand-image', array("output" => "image")) ?>
-                    </div>
-                    <div class="col-md-9">
-                        <?= types_render_field('slider-images', array("output" => "image")) ?>
-                    </div>
-                </div>
-                <div class="col-md-12">
-
-                    <blockquote>
-                        <?= types_render_field('slider-testimonial', array('separator' => '</blockquote><blockquote>')) ?>
-                    </blockquote>
-                </div>
-                <div class="clearfix visible-xs-block"></div>
-
+                        <?= '';//types_render_field('slider-testimonial', array('separator' => '</blockquote><blockquote>')) ?>
                 <?php $categories = get_categories(array('type' => 'page', 'hide_empty' => false)); ?>
-                <?php foreach ($categories as $category) { ?>
-                    <div class="col-xs-6 col-sm-4 tour">
-                        <div class="caption">
-                            <a href="<?= $category->slug ?>">
-                                <h3><?= $category->name ?></h3>
-                            </a>
-                        </div>
-                        <div class="region-box">
-                            <a href="<?= $category->slug ?>">
-                                <img width="100%" src="<?php echo z_taxonomy_image_url($category->term_id); ?>" />
-                            </a>
+                <div class="row region-tour">
+                <?php foreach ($categories as $i => $category) { ?>
+                    <?= ($i != 0 && (0 == $i % 3)) ? '</div><div class="row region-tour">' : '' ?>
+                    <div class="col-sm-6 col-md-4 tour">
+                        <div class="thumbnail">
+                          <img src="<?php echo z_taxonomy_image_url($category->term_id); ?>" alt="...">
+                          <div class="caption">
+                            <h3><?= $category->name ?></h3>
+                            <p>
+                                <a href="<?= $category->slug ?>" class="btn btn-primary" role="button">View tours</a>
+                            </p>
+                          </div>
                         </div>
                     </div>
                 <?php } ?>
+                </div>
                 <div class="clearfix visible-xs-block"></div>
                 <div class="col-xs-6 col-sm-4 tour">
                     <h4>Also a proud member of:</h4>
