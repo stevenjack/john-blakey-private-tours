@@ -39,7 +39,7 @@ get_header(); ?>
                           <div class="caption">
                             <h3><?= $category->name ?></h3>
                             <p>
-                                <a href="<?= $category->slug ?>" class="btn btn-primary" role="button">View tours</a>
+                                <a href="/?page_id=143&category=<?= $category->slug ?>" class="btn btn-primary" role="button">View tours</a>
                             </p>
                           </div>
                         </div>
