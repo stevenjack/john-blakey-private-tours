@@ -538,20 +538,6 @@ object {
     display: none;
 }
 
-/* .tour { */
-/*     padding-bottom: 20px; */
-/* } */
-
-/* .tour h3 { */
-/* font-size: 1.1em; */
-/* text-align: center; */
-/* } */
-
-/* .tour img, .col-md-3 img { */
-/* display: block; */
-/* margin: auto; */
-/* } */
-
 .region-tour {
     margin-bottom: 25px;
 }
@@ -607,6 +593,24 @@ object {
 
 .special-interest-cat .blurb {
     padding-left: 10px;
+}
+
+.expanded .special-interest-cat {
+    margin-bottom: 30px;
+}
+
+.expanded .special-interest-cat h3 {
+    margin-top: 30px;
+}
+
+/* Tour item */
+.tour-item {
+    padding-top: 10px;
+}
+
+.tour-item h4 {
+    margin-top: 0px;
+    line-height: 14px;
 }
 
 /* Container */
