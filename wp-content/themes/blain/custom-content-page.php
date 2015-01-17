@@ -19,7 +19,7 @@ get_header(); ?>
                         <?= types_render_field('tour-image', array("output" => "image")) ?>
                     </div>
   					<div class="col-md-6">
-						<div class="blurb"><?= $post->post_content ?></div>
+						<div class="blurb"><?= apply_filters('the_content', $post->post_content) ?></div>
 					</div>
 				</div>
 			<?php endwhile; // end of the loop. ?>
