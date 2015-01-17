@@ -53,7 +53,7 @@ get_header(); ?>
                                         </div>
                                     </div>
                                     <div style="clear: both;"></div>
-                                    <div class="blurb"><?= $tour_child->post_content ?></div>
+                                    <div class="blurb"><?= apply_filters('the_content', $tour_child->post_content) ?></div>
                                 </div>
                             </div>
                             <?= ($tour_child != end($tour_children)) ? '<hr>' : '' ?>

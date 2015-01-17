@@ -26,10 +26,10 @@
 			Email: <a href="mailto:john.blakey7@btinternet.com">john.blakey7@btinternet.com</a>
 		</p>
 		<p class="item">
-			Tel: <a href="tel:07939076514">07939 076 514</a>
+			From the USA: <a href="tel:011447939076514">011 44 7939 076 514</a>
 		</p>
 		<p class="item">
-			From the USA: <a href="tel:011447939076514">011 44 7939 076 514</a>
+			Tel: <a href="tel:07939076514">07939 076 514</a>
 		</p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->

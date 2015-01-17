@@ -11,7 +11,8 @@ $cat_details = get_category_by_slug($category);
 
 query_posts(
     array (
-        'category_name' => $category
+        'category_name' => $category,
+        'order' => 'ASC'
     )
 );
 ?>
@@ -39,7 +40,7 @@ query_posts(
                             </div>
                         </div>
                         <div style="clear: both;"></div>
-                        <div class="blurb"><?= $post->post_content ?></div>
+                        <div class="blurb"><?= apply_filters('the_content', $post->post_content) ?></div>
                     </div>
                 </div>
 
