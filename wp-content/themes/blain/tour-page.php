@@ -26,7 +26,7 @@ get_header(); ?>
 						</div>
 <div style="clear: both;"></div>
 						<div class="blurb">
-							<?= $post->post_content ?>
+							<?= apply_filters('the_content', $post->post_content) ?>
 						</div>
 					</div>
 				</div>
