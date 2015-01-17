@@ -23,13 +23,13 @@
 			 	echo of_get_option('footertext2', true); } ?>
         </p>
 		<p class="item">
-			Email: <a href="mailto:john@johnblakeyprivatetours.com">john@johnblakeyprivatetours.com</a>
+			Email: <a href="mailto:john.blakey7@btinternet.com">john.blakey7@btinternet.com</a>
 		</p>
 		<p class="item">
-			Tel: <a href="tel:+447768616746">+44 (0)7768616746</a>
+			Tel: <a href="tel:07939076514">07939 076 514</a>
 		</p>
 		<p class="item">
-			Skype: jb7traveller
+			From the USA: <a href="tel:011447939076514">011 44 7939 076 514</a>
 		</p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->

@@ -1,4 +1,4 @@
-Theme Name: Blain
+-heme Name: Blain
 Theme URI: http://inkhive.com/product/blain/
 Author: Rohit Tripathi
 Author URI: http://inkhive.com
@@ -622,7 +622,7 @@ object {
 }
 
 .tour-image img {
-    width: 360px;
+    width: 50%;
     float: left;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -644,7 +644,7 @@ object {
 }
 
 #menu-navigation {
-    width: 752px;
+    width: 894px;
     margin: auto;
     float: none;
 }
@@ -666,14 +666,29 @@ object {
     margin-bottom: 20px;
 }
 
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+.page .dropdown-menu .menu-item>a:hover {
+    background: none;
+}
+
+.page .dropdown-menu li>a {
+    color: #777;
+}
+
+
+.page .nav-wrapper ul ul {
+    background: #f8f8f8;
+}
+
 .page .navbar-default .navbar-nav>.active>a, 
 .page .navbar-default .navbar-nav>.active>a:hover, 
 .page .navbar-default .navbar-nav>.active>a:focus,
-.page .navbar-default .navbar-nav>.menu-item>a:hover,
 .page .dropdown-menu>.active>a,
 .page .dropdown-menu>.active>a:hover,
-.page .dropdown-menu>.active>a:focus,
-.page .dropdown-menu>.menu-item>a:hover {
+.page .dropdown-menu>.active>a:focus {
     background-color: #07a99d;
     color: white;
 }
@@ -747,4 +762,8 @@ object {
 
 .tour-main .title h4.price {
     float: right;
+}
+
+.content .entry-header {
+    margin-bottom: 20px;
 }
