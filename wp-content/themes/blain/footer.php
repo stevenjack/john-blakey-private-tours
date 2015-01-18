@@ -11,12 +11,6 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer container row" role="contentinfo">
-	<?php if ( of_get_option('credit1', true) == 0 ) { ?>
-		<div class="site-info pull-left">
-			<?php do_action( 'blain_credits' ); ?>
-			<?php printf( __( 'Blain Theme by %1$s.', 'blain' ), '<a href="http://inkhive.com/" rel="designer">InkHive</a>' ); ?>
-		</div><!-- .site-info -->
-	<?php } ?>
 		<p id="footertext" class="item">
         	<?php
 			if ( (function_exists( 'of_get_option' ) && (of_get_option('footertext2', true) != 1) ) ) {

@@ -587,6 +587,11 @@ object {
     margin-top: 20px;
 }
 
+#colophon .item,
+#colophon .item>a {
+    font-size: 14px;
+}
+
 #colophon .item {
     float: right;
     padding-right: 20px;
