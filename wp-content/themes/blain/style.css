@@ -800,3 +800,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     margin-top: 35px;
     margin-bottom: 25px;
 }
+
+.page .thumbnail .caption {
+    min-height: 65px;
+}
