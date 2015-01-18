@@ -20,7 +20,7 @@ get_header(); ?>
                     <h1 class="entry-title"><?= $post->post_title ?></h1>
                 </header>
                 <div class="row row-padding">
-                    <div class="col-md-12 tour-image">
+                    <div class="col-md-12 tour-image content">
                         <?= types_render_field('tour-list-image', array("output" => "image")) ?>
                         <?= apply_filters('the_content', $post->post_content) ?>
                     </div>

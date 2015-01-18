@@ -767,3 +767,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .content .entry-header {
     margin-bottom: 20px;
 }
+
+.tour-main .content ul {
+    list-style-position: inside;
+    padding-left: 52%;
+}
