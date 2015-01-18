@@ -19,6 +19,20 @@ if ( !function_exists( 'optionsframework_init' ) ) {
 	require_once dirname( __FILE__ ) . '/inc/options-framework.php';
 }
 
+
+/*
+ * Modify HTTP header
+ */
+function add_header_xua($headers) {
+
+    // var_dump($headers); #=> if you want to see the current headers...
+
+    $headers['X-Container'] = getenv('HOSTNAME');
+    return $headers;
+}
+add_filter('wp_headers', 'add_header_xua');
+
+
 if ( ! function_exists( 'blain_setup' ) ) :
 
 function blain_setup() {
