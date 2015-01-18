@@ -694,7 +694,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .page .dropdown-menu>.active>a,
 .page .dropdown-menu>.active>a:hover,
 .page .dropdown-menu>.active>a:focus {
-    background-color: #07a99d;
+    background-color: #1D2D4A;
     color: white;
 }
 
@@ -761,11 +761,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 #masthead .row h1 {
     font-size: 50px;
+    color: #1D2D4A; 
 }
 
 #masthead .row h2 {
     margin-top: 14px;
     font-size: 21px;
+    color: #666;
 }
 
 #masthead .h1 {

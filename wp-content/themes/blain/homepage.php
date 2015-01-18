@@ -41,11 +41,16 @@ get_header(); ?>
                 </div>
                 <div class="clearfix visible-xs-block"></div>
                 <div class="row">
-                    <ul>
-                        <li>
-                            <?= types_render_field('member-of', array('separator' => '</li><li>')) ?>
-                        </li>
-                    </ul>
+                    <div class="col-md-6 pull-left">
+                        <ul>
+                            <li>
+                                <?= types_render_field('member-of', array('separator' => '</li><li>')) ?>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="pull-right" src="/wp-content/themes/blain/images/member_logos.png">
+                    </div>
                 </div>
             </div>
 
