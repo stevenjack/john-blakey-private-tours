@@ -12,23 +12,11 @@ get_header(); ?>
 ?>
 	<div id="tours" class="content-area">
         <main id="main" class="site-main" role="main">
-            <div class="quote">
-                <div class="row">
-                    <div class="col-md-1 quote-mark quote-mark-left">
-                        <img src="/wp-content/themes/blain/images/quote_left.svg" />
-                    </div>
-                    <div class="col-md-10">
-                        <span class="open-quote"></span>
-                        <p>John is the best! He knows everything; history, hotels, restaurants and scenery. He brings England alive like you cannot imagine. He's fun, interesting and a great storyteller. A day with him is like no other.</p>
-                        <div class="quotes"><em>Stephen & Nancy hales, USA</em></div>
-                    </div>
-                    <div class="col-md-1 quote-mark quote-mark-right">
-                        <img src="/wp-content/themes/blain/images/quote_right.svg" />
-                    </div>
-                </div>
-            </div>
+            <?= types_render_field('slider-image', array('output' => 'image')) ?>
+
+            <h3 class="tour-selection">A selection of my most popular tours</h3>
+
 			<?php while ( have_posts() ) : the_post(); ?>
-                        <?= '';//types_render_field('slider-testimonial', array('separator' => '</blockquote><blockquote>')) ?>
                 <?php $categories = get_categories(array('type' => 'page', 'hide_empty' => false)); ?>
                 <div class="row region-tour">
                 <?php foreach ($categories as $i => $category) { ?>

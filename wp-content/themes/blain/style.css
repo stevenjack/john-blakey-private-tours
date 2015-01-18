@@ -729,27 +729,43 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     margin-top: 5px;
 }
 /* Header */
-#masthead .image {
-    width: 100%;
-    height: 330px;
-    position: relative;
+/* #masthead .image { */
+/*     width: 100%; */
+/*     height: 330px; */
+/*     position: relative; */
+/* } */
+
+/* #masthead .image a { */
+/*     display: block; */
+/*     padding-top: 45px; */
+/* } */
+
+/* #masthead .logo { */
+/*     width: 40%; */
+/*     margin: auto; */
+/*     display: block; */
+/* } */
+
+/* #masthead .image .blue-badge { */
+/*     position: absolute; */
+/*     right: 20px; */
+/*     bottom: 20px; */
+/* } */
+
+#masthead .row h1,
+#masthead .row h2 {
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 5px;
 }
 
-#masthead .image a {
-    display: block;
-    padding-top: 45px;
+#masthead .row h1 {
+    font-size: 50px;
 }
 
-#masthead .logo {
-    width: 40%;
-    margin: auto;
-    display: block;
-}
-
-#masthead .image .blue-badge {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
+#masthead .row h2 {
+    margin-top: 14px;
+    font-size: 21px;
 }
 
 #masthead .h1 {
@@ -776,4 +792,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .tour-main .content ul {
     list-style-position: inside;
     padding-left: 52%;
+}
+
+/* Homepage */
+.tour-selection {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
 }

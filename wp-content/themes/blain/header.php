@@ -22,11 +22,17 @@
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="site-header row container" role="banner">
-        <div class="image" style="background-image: url('/wp-content/themes/blain/images/header.jpg');">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                <img class="logo" src="/wp-content/themes/blain/images/logo.svg" alt="John Blakey" />
-            </a>
-            <img class="blue-badge" src="/wp-content/themes/blain/images/blue_badge_small.png" />
+        <div class="row">
+            <div class="col-md-2">
+                <img class="pull-left" src="/wp-content/themes/blain/images/logo.jpg" alt="John Blakey" />
+            </div>
+            <div class="col-md-8">
+                <h1><?= esc_attr( get_bloginfo( 'name', 'display' ) ); ?></h1>
+                <h2><?= esc_attr( get_bloginfo( 'description', 'display' ) ); ?></h2>
+            </div>
+            <div class="col-md-2">
+                <img class="pull-right" src="/wp-content/themes/blain/images/blue_badge_small.png" />
+            </div>
         </div>
 	</header><!-- #masthead -->
 
