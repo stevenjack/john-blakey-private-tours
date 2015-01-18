@@ -24,7 +24,7 @@
 	<header id="masthead" class="site-header row container" role="banner">
         <div class="row">
             <div class="col-md-2">
-                <img class="pull-left" src="/wp-content/themes/blain/images/logo.jpg" alt="John Blakey" />
+                <img class="pull-left" src="/wp-content/themes/blain/images/logo.svg" alt="John Blakey" />
             </div>
             <div class="col-md-8">
                 <h1><?= esc_attr( get_bloginfo( 'name', 'display' ) ); ?></h1>
