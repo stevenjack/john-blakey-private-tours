@@ -2,7 +2,7 @@
 
 This is the contents for the following website:
 
-[http://dev.privateguidedtours.london](http://dev.privateguidedtours.london)
+[http://www.privateguidedtours.london](http://www.privateguidedtours.london)
 
 
 ### Dependencies
@@ -23,7 +23,7 @@ $: boot2docker init
 $: boot2docker up
 ```
 
-export the environment variables it gives you in `.bashrc` or whatever other shell
+export the environment variables it gives you into `.bashrc` or whatever other shell
 you're using.
 
 #### Fig
@@ -65,4 +65,4 @@ One the command has finished, run:
 boot2docker ip
 ```
 
-and enter that into the browser, and the site should load.
+and enter it into the browser and the site should load.
