@@ -5,7 +5,6 @@
  * @package Blain
  */
 
-get_header();
 $category = filter_input(INPUT_GET, 'category', FILTER_SANITIZE_STRING);
 $cat_details = get_category_by_slug($category);
 
@@ -15,6 +14,16 @@ query_posts(
         'order' => 'ASC'
     )
 );
+
+function twentytwelve_wp_title($title, $sep) {
+    global $cat_details;
+    $site_description = get_bloginfo( 'description', 'display' );
+    return "{$cat_details->name} $sep $site_description";
+}
+add_filter( 'wp_title', 'twentytwelve_wp_title', 10, 2);
+
+get_header();
+
 ?>
 
     <div id="tour" class="content-area">
