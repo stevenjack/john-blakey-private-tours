@@ -10,6 +10,5 @@ ADD wp-content/plugins /var/www/html/wp-content/plugins
 ADD wp-content/uploads /var/www/html/wp-content/uploads
 ADD config/wp-config.php /var/www/html/wp-config.php
 ADD config/php.ini /etc/php5/apache2/php.ini
-ADD config/.htaccess /var/www/html/.htaccess
 RUN chown -R www-data:www-data /var/www/html
 RUN touch /.mysql_db_created
