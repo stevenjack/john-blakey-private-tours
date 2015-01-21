@@ -1,5 +1,5 @@
 httpd:
-  image: 'jbpt/httpd'
+  build: .
   links: 
     - memcache
     - db
@@ -13,7 +13,7 @@ httpd:
     DB_HOST: "**LinkMe**"
   volumes:
     - './wp-content:/var/www/html/wp-content'
-    - './wp-config.php:/var/www/html/wp-config.php'
+    - './config/wp-config.php:/var/www/html/wp-config.php'
 memcache:
   image: memcached
 db:
