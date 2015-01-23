@@ -16,7 +16,7 @@ get_header(); ?>
                 </div>
 				<div class="row">
                     <div class="col-md-6">
-                        <?= types_render_field('tour-image', array("output" => "image")) ?>
+                        <?= types_render_field('default-content-image', array("output" => "image")) ?>
                     </div>
   					<div class="col-md-6">
 						<div class="blurb"><?= apply_filters('the_content', $post->post_content) ?></div>
