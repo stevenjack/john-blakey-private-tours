@@ -21,7 +21,9 @@ get_header(); ?>
                 </header>
                 <div class="row row-padding">
                     <div class="col-md-12 tour-image content">
-                        <?= types_render_field('tour-list-image', array("output" => "image")) ?>
+                        <div class="main-image">
+                            <?= types_render_field('tour-list-image', array("output" => "image")) ?>
+                        </div>
                         <?= apply_filters('the_content', $post->post_content) ?>
                     </div>
                 </div>

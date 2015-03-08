@@ -626,12 +626,16 @@ object {
     padding-right: 0px;
 }
 
-.tour-image img {
+.tour-image .main-image img {
     width: 50%;
     float: left;
     padding-right: 20px;
     padding-bottom: 20px;
     padding-top: 5px;
+}
+
+.main-image .multi-image img {
+    padding-bottom: 20px;
 }
 
 .site-title {
@@ -789,11 +793,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .content .entry-header {
     margin-bottom: 20px;
-}
-
-.tour-main .content ul {
-    list-style-position: inside;
-    padding-left: 52%;
 }
 
 /* Homepage */
