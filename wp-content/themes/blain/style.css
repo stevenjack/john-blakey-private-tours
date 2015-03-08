@@ -780,6 +780,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .entry-header h1 {
     margin-top: 0px;
+    font-weight: normal;
 }
 
 /* Tour page */
