@@ -49,9 +49,6 @@ get_header(); ?>
                                             <div class="col-md-9">
                                                 <h4 class="inner-title"><?= $tour_child->post_title ?></h4>
                                             </div>
-                                            <div class="col-md-3">
-                                                <h4 class="price">&pound;<?= types_render_field('tour-price', array('output' => "raw", "post_id" => $tour_child->ID))  ?></h4>
-                                            </div>
                                         </div>
                                     </div>
                                     <div style="clear: both;"></div>
