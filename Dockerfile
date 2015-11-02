@@ -1,7 +1,7 @@
 FROM tutum/wordpress-stackable
 MAINTAINER Steven Jack <stevenmajack@gmail.com>
 RUN apt-get update
-RUN apt-get install php5-memcached -y
+RUN apt-get install php5-memcached vim -y
 RUN rm -rf /var/www/html
 RUN cp -rp /app /var/www
 RUN mv /var/www/app /var/www/html

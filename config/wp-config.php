@@ -1,4 +1,5 @@
 <?php
+header("Cache-Control: max-age=60");
 /**
  * The base configurations of the WordPress.
  *
