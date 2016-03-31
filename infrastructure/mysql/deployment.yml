@@ -1,0 +1,31 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  namespace: production
+  name: mysql-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: jbpt
+        name: mysql
+    spec:
+      containers:
+        - name: mysql
+          image: tutum/mysql:5.5
+          imagePullPolicy: Always
+          resources:
+            requests:
+              memory: 100Mi
+              cpu: 400m
+            limits:
+              memory: 100Mi
+              cpu: 500m
+          ports:
+          - containerPort: 3306
+          env:
+            - name: MYSQL_PASS
+              value: "=~01< Jh6zR4B8a43_uc+NY8k+DobWA"
+            - name: MYSQL_USER
+              value: wordpress

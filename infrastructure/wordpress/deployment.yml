@@ -1,0 +1,39 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  namespace: production
+  name: wordpress-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: jbpt
+        name: wordpress
+    spec:
+      containers:
+        - name: wordpress
+          image: jbpt/httpd:latest
+          imagePullPolicy: Always
+          resources:
+            requests:
+              memory: 90Mi
+              cpu: 300m
+            limits:
+              memory: 100Mi
+              cpu: 500m
+          ports:
+          - containerPort: 80
+          env:
+            - name: DB_HOST
+              value: mysql
+            - name: DB_NAME
+              value: wordpress
+            - name: DB_NAME
+              value: wordpress
+            - name: DB_PASS
+              value: '=~01< Jh6zR4B8a43_uc+NY8k+DobWA'
+            - name: DB_PORT
+              value: "3306"
+            - name: DB_USER
+              value: wordpress

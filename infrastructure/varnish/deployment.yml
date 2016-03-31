@@ -1,0 +1,26 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  namespace: production
+  name: varnish-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: jbpt
+        name: varnish
+    spec:
+      containers:
+        - name: varnish
+          image: jbpt/varnish:latest
+          imagePullPolicy: Always
+          resources:
+            requests:
+              memory: 10Mi
+              cpu: 100m
+            limits:
+              memory: 50Mi
+              cpu: 200m
+          ports:
+          - containerPort: 6081

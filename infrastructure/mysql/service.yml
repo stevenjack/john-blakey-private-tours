@@ -4,10 +4,9 @@ metadata:
   namespace: production
   labels: 
     app: jbpt
-  name: varnish
+  name: mysql
 spec: 
   ports:
-    - port: 80
+    - port: 3306
   selector: 
-    name: varnish
-  type: LoadBalancer
+    name: mysql

@@ -4,10 +4,9 @@ metadata:
   namespace: production
   labels: 
     app: jbpt
-  name: varnish
+  name: wordpress
 spec: 
   ports:
     - port: 80
   selector: 
-    name: varnish
-  type: LoadBalancer
+    name: wordpress
