@@ -26,6 +26,9 @@ spec:
           - containerPort: 3306
           env:
             - name: MYSQL_PASS
-              value: "=~01< Jh6zR4B8a43_uc+NY8k+DobWA"
+              valueFrom:
+                secretKeyRef:
+                  name: database
+                  key: password
             - name: MYSQL_USER
               value: wordpress

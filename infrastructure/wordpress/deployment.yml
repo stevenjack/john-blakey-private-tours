@@ -29,8 +29,6 @@ spec:
               value: mysql
             - name: DB_NAME
               value: wordpress
-            - name: DB_NAME
-              value: wordpress
             - name: DB_PASS
               value: '=~01< Jh6zR4B8a43_uc+NY8k+DobWA'
             - name: DB_PORT
