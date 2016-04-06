@@ -1,0 +1,45 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  namespace: production
+  name: mysql-backup-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: jbpt
+        name: mysql-backup
+    spec:
+      containers:
+        - name: mysql-backup
+          image: smaj/mysql-s3-backup:0.2
+          imagePullPolicy: Always
+          resources:
+            requests:
+              memory: 50Mi
+              cpu: 50m
+            limits:
+              memory: 50Mi
+              cpu: 50m
+          env:
+            - name: DB_USER
+              value: wordpress
+            - name: DB_NAME
+              value: wordpress
+            - name: DB_HOST
+              value: mysql
+            - name: S3_BUCKET
+              value: jbpt-backup
+            - name: AWS_ACCESS_KEY_ID
+              value: AKIAJ5OHISLEFFNEUFEQ
+            - name: AWS_SECRET_ACCESS_KEY
+              value: "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"
+            - name: DB_PASS
+              value: "=~01< Jh6zR4B8a43_uc+NY8k+DobWA"
+            - name: AWS_DEFAULT_REGION
+              value: eu-central-1
+            - name: AWS_REGION
+              value: eu-central-1 
+            - name: SLEEP_DELAY
+              value: "86400"

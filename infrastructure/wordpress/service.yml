@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  namespace: production
+  labels: 
+    app: jbpt
+  name: wordpress
+spec: 
+  ports:
+    - port: 80
+  selector: 
+    name: wordpress

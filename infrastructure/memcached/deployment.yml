@@ -1,0 +1,27 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  namespace: production
+  name: memcached-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      namespace: production
+      labels:
+        app: jbpt
+        name: memcache
+    spec:
+      containers:
+        - name: memcache
+          image: memcached:latest
+          imagePullPolicy: Always
+          resources:
+            requests:
+              memory: 15Mi
+              cpu: 250m
+            limits:
+              memory: 30Mi
+              cpu: 500m
+          ports:
+          - containerPort: 11211

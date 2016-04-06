@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  namespace: production
+  labels: 
+    app: jbpt
+  name: varnish
+spec: 
+  ports:
+    - port: 80
+  selector: 
+    name: varnish
+  type: LoadBalancer

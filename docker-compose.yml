@@ -1,13 +1,13 @@
 varnish:
-  build: varnish
+  build: containers/varnish
   links:
     - 'httpd:wordpress'
   ports:
     - "8000:80"
   volumes:
-    - './varnish/default.vcl:/etc/varnish/default.vcl'
+    - './containers/varnish/default.vcl:/etc/varnish/default.vcl'
 httpd:
-  build: .
+  build: containers/wordpress
   links: 
     - memcache
     - db
@@ -20,14 +20,14 @@ httpd:
     DB_PORT: 3306
     DB_HOST: "**LinkMe**"
   volumes:
-    - './wp-content:/var/www/html/wp-content'
-    - './config/wp-config.php:/var/www/html/wp-config.php'
+    - './containers/wordpress/wp-content:/var/www/html/wp-content'
+    - './containers/wordpress/config/wp-config.php:/var/www/html/wp-config.php'
 memcache:
   image: memcached
 db:
   image: tutum/mysql:5.5
   volumes:
-    - './db_backups/wordpress.sql:/wordpress.sql'
+    - './containers/wordpress/db_backups/wordpress.sql:/wordpress.sql'
   environment:
     MYSQL_PASS: "dev"
     MYSQL_USER: "dev"
