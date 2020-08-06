@@ -17,7 +17,7 @@
 			 	echo of_get_option('footertext2', true); } ?>
         </p>
 		<p class="item">
-			Email: <a href="mailto:john.blakey7@btinternet.com">john.blakey7@btinternet.com</a>
+			Email: <a href="mailto:johnblakey10@gmail.com">johnblakey10@gmail.com</a>
 		</p>
 		<p class="item">
 			From the USA: <a href="tel:011447939076514">011 44 7939 076 514</a>
